@@ -48,9 +48,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-
-        // DetailViewModel = ViewModelProviders.of(this).get(CategoryViewModel.class);
-
         // Initiate buttons/textViews and Handler
         startButton = findViewById(R.id.startButton);
         pauseButton = findViewById(R.id.pauseButton);
@@ -73,9 +70,6 @@ public class SecondActivity extends AppCompatActivity {
 
         // Method that sets OnClickListeners for all four buttons(better then XML because we can do .setEnabled)
         ButtonsOnClick();
-
-        //TODO: Do we need this?
-        //catViewModel = ViewModelProviders.of(this).get(CategoryViewModel.class);
     }
 
 
