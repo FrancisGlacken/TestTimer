@@ -114,8 +114,6 @@ public class SecondActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
 
-
-
         /* // Make storedTime accurate
         storedTime = millisecondsLong + timeBeforePause;
 
@@ -141,8 +139,6 @@ public class SecondActivity extends AppCompatActivity {
 
             //Update the millis to count for the time before pause
             updatedMillisecondsLong = millisecondsLong + timeBeforePause + storedTime;
-
-
 
             // Format updatedMillisecondsLong into 00:00:00 H/M/S and update timer accordingly
             formatMillisIntoHMS(updatedMillisecondsLong);
